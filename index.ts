@@ -1,5 +1,6 @@
-import inquirer from "inquirer";
+#! /usr/bin/env node
 
+import inquirer from "inquirer";
 let target = Math.floor(Math.random()*3 + 1);
 
 let message= await inquirer.prompt([{
